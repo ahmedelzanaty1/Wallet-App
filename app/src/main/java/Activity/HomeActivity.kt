@@ -25,7 +25,6 @@ class HomeActivity : ComponentActivity() {
             WalletAppTheme {
                 AppBar(color = MaterialTheme.colorScheme.background)
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(modifier = Modifier.padding(innerPadding))
 
                 }
             }
