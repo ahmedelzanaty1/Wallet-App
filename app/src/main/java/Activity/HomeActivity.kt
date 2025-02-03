@@ -39,10 +39,4 @@ class HomeActivity : ComponentActivity() {
 }
 @Composable
 fun Greeting(modifier: Modifier = Modifier){
-    Text(text = "Hello World")
-}
-@Preview(showBackground = true)
-@Composable
-private fun GREETING() {
-Greeting()
 }
