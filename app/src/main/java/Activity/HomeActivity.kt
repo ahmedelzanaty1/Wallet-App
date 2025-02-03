@@ -12,8 +12,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import Activity.ui.theme.WalletAppTheme
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.graphics.Color
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -41,6 +39,4 @@ class HomeActivity : ComponentActivity() {
 }
 @Composable
 fun Greeting(modifier: Modifier = Modifier){
-    Text(text = "Hello World",modifier = modifier)
 }
-
