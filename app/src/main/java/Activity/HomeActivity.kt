@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import Activity.ui.theme.WalletAppTheme
+import Screen.HomeScreen
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.graphics.Color
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -25,6 +26,7 @@ class HomeActivity : ComponentActivity() {
             WalletAppTheme {
                 AppBar(color = MaterialTheme.colorScheme.background)
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    HomeScreen(modifier = Modifier.padding(innerPadding))
 
                 }
             }
@@ -36,6 +38,4 @@ class HomeActivity : ComponentActivity() {
         appBar.setStatusBarColor(color)
     }
 }
-@Composable
-fun Greeting(modifier: Modifier = Modifier){
-}
+

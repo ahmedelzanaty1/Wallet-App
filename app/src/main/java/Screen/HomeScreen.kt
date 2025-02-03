@@ -1,5 +1,6 @@
 package Screen
 
+import Sections.WalletSection
 import Utils.BottomNavigation
 import Utils.bottomNavItems
 import androidx.compose.foundation.layout.Column
@@ -20,7 +21,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     ) {
         innerPadding ->
         Column(modifier = modifier.padding(innerPadding)) {
-//            WalletSection()
+            WalletSection()
 //            CardsSection()
             Spacer(modifier = Modifier.padding(10.dp))
 //            FinanceSection()
