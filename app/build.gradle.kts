@@ -56,6 +56,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     // System UI Controller
     implementation (libs.accompanist.systemuicontroller)
+    implementation(libs.androidx.material)
+    implementation (libs.androidx.material.icons.extended)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)

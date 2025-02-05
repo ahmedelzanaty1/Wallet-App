@@ -1,6 +1,7 @@
 package Screen
 
 import Sections.CardsSection
+import Sections.CurrenciesSection
 import Sections.WalletSection
 import Utils.BottomNavigation
 import Utils.bottomNavItems
@@ -26,7 +27,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
             CardsSection()
             Spacer(modifier = Modifier.padding(10.dp))
 //            FinanceSection()
-//            CurrenciesSection()
+            CurrenciesSection()
 
         }
     }

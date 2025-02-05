@@ -5,6 +5,7 @@ import androidx.compose.material.icons.rounded.AccountCircle
 import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.MailOutline
 import androidx.compose.material.icons.rounded.Notifications
+import androidx.compose.material.icons.rounded.Wallet
 import androidx.compose.ui.graphics.vector.ImageVector
 
 data class BottomNavItem(
@@ -17,7 +18,7 @@ data class BottomNavItem(
     ),
     BottomNavItem(
         Title = "Wallet",
-        Icon = Icons.Rounded.MailOutline
+        Icon = Icons.Rounded.Wallet
     ),
     BottomNavItem(
         Title = "Notifications",
